@@ -1,0 +1,20 @@
+img{
+  width:450px;
+  height:400px;
+  object-fit: cover;
+}
+.title {
+  padding-left: 530px;
+}
+body{
+  padding-left: 30px;
+}
+.title{
+  border-style: double;
+  border-width: thick;
+}
+@media Screen and (max-width:1024px){
+  .title {
+    padding-left: 330px;
+  }
+}
