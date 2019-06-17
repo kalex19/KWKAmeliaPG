@@ -1,19 +1,24 @@
-img{
-  width:450px;
-  height:400px;
+img {
+  width: 450px;
+  height: 400px;
   object-fit: cover;
 }
+
+section {
+  margin: 0 5%;
+}
+
 .title {
   padding-left: 530px;
-}
-body{
-  padding-left: 30px;
-}
-.title{
   border-style: double;
   border-width: thick;
 }
-@media Screen and (max-width:1024px){
+
+body {
+  padding-left: 30px;
+}
+
+@media Screen and (max-width:1024px) {
   .title {
     padding-left: 330px;
   }
